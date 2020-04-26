@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900');
+		body{
+			font-family:'Roboto',sans-serif;
+			margin:0px
+		}
+		
+		.container{ 
+			/*opacity: 1;*/
+			border-bottom:2px solid black;
+			margin-right:24px;
+			margin-left:24px;
+			width:calc(100% - 48px);
+		}
+
+
+		.nav{
+			height:14px;
+			border-bottom:2px solid black;
+			width:calc(33.33%);
+			margin-top:9px;
+			/*margin-bottom:20px;*/
+			font-size: 18pt;
+			font-family: 'Poppins',sans-serif;
+			margin-right:0px;
+			display:inline;
+			float:left;
+		}
+
+		.navsec{
+			height:14px;
+			border-bottom:2px solid black;
+			width:calc(33.33%);
+			margin-top:10px;
+			margin-left:0px;
+			margin-right:0px;
+			display:inline;
+			float:left;
+		}
+
+		.navthird{
+			height:14px;
+			border-bottom:2px solid black;
+			width:calc(33.33%);
+			margin-top:10px;
+			margin-left:0px;
+			display:inline;
+			float:left;
+		}
+
+	
+
+		h1{
+			margin-top: 24px;
+			margin-bottom:40px;
+			font-family: 'Poppins',sans-serif;
+			font-size: 100pt;
+			line-height: 120%
+		
+
+		}
+		.left{
+			padding-right:24px;
+			padding-bottom:35px;
+			width:calc(70% - 12px);
+			float:left;
+
+		}
+
+		.rigt_img{
+			margin-top: 60px;
+			padding-left:12px;
+			margin-bottom:40px;
+			width:calc(50% - 36px);
+			float:left;
+			display:none;
+		}
+
+		#popupImage{
+			width:100%;
+
+		}
+
+
+		.left_table{
+			padding-right:12px;
+			padding-bottom:35px;
+			width:calc(50%);
+			float:left;
+
+		}
+
+
+		.right{
+			width:calc(30% - 12px);
+			float:left;
+			font-size:20pt;
+
+		}
+
+		.info{
+			margin-left:24px;
+			margin-right:24px;
+			padding-bottom:40px;
+			font-size: 30pt;
+			
+		}
+
+		.name
+		{	
+			margin-left:24px;
+			font-size: 100pt;
+			border-bottom:none;
+
+		}
+
+
+		div{ 
+			display:inline;
+			float:left;
+			/*border-bottom: 1px solid black;*/ 
+
+		}
+
+
+		span{
+			text-decoration:underline;
+		}
+		
+
+
+		.hoverTable{
+			margin-top:60px;
+			margin-bottom:60px;
+			table-layout: fixed;
+			font-size: 15pt;
+			height: 22px;
+			width:100%;
+			
+		}
+
+		.hoverTable td{
+			border-bottom:1px solid transparent;
+			background-repeat:no-repeat;
+			cursor:default;
+
+		}
+
+
+		.hoverTable td:hover{
+			border-bottom: 1px solid;
+		}
+
+
+		.hoverTable tr{
+			vertical-align: top;
+		}
+
+		
+
+		.saw{
+			color:black;
+			text-decoration:none;
+		}
+
+		.text-decoration{
+			color:black;
+		}
+
+
+    
+		
+	
+		

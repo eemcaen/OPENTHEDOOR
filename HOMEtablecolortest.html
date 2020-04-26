@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crypt of civilization</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<style>
+		.container{
+			background-color: white;
+		}
+	</style>
+</head>
+
+	<body>
+
+	<div class="container2">
+		<center>
+		<table id="myTable">
+		<tr><td class="someClass">George Eastman</td></tr>
+		<tr><td>George Washington Carver</td></tr>
+		<tr><td>Henry Ford</td></tr>
+		<tr><td>Mary Pickford</td></tr>
+		<tr><td>Rachel Carson</td></tr>
+		<tr><td>Virginia Hall</td></tr>
+		<tr><td>William Randolph Hearst</td></tr>
+	</table></center>
+	<script>
+		$('#myTable tr td.someClass').on('mouseenter',function(){
+	    $('body').css( "background", "linear-gradient(180deg,lime,white)");
+		})
+
+		$('#myTable tr td.someClass').on('mouseleave',function(){
+	    $('body').css( "background", "none");
+		})
+	</script>
+	</div>
+
+</body>
+
+</html>
